@@ -21,12 +21,11 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/image_avatar"
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:src="@drawable/profile_picture"
-        />
+        android:src="@drawable/profile_picture" />
 
     <Button
         android:text="@string/change_avatar"
